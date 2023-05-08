@@ -1,0 +1,8 @@
+jum_elektrik = float(input("Masukkan jumlah penggunaan elektrik yang digunakan: "))
+if jum_elektrik <= 200:   
+   jum_bayaran = (jum_elektrik * 0.218)   
+   print("Jumlahbilelektrik yang perludibayaradalah RM", round(jum_bayaran,2))
+elif jum_elektrik >= 201: 
+   jum_bayaran = (jum_elektrik * 0.492)   
+   print("Jumlah bil elektrik yang perlu dibayar adalah RM", round(jum_bayaran,2)) 
+   
